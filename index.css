@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 30;
+    background-color:pink;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 150px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color:white;
+  }
+  
+  .game-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 80px 100px;
+    font-size: 40px;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:greenyellow;
+    color:grey;
+    border:0.15cm;
+    border-style: groove;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+  }
+  
+  button:hover {
+    background-color:green;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size:3em;
+    font-style:oblique;
+    font-weight: 400;
+    color:white;
+    
+  }
+  
